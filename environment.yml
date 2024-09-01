@@ -301,7 +301,6 @@ variables:
   MYSQL_HOST: localhost
   MYSQL_DATABASE: travel_booking
   root: ''
-  sAnisa@11: ''
   localhost: ''
   travel_booking: ''
 prefix: C:\Users\Anuj\miniconda3\envs\PRML
