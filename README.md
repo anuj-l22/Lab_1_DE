@@ -49,3 +49,27 @@ This repository contains the implementation of a Travel Booking System using Pyt
    )
 
    cursor = db_connection.cursor()
+3. **Run the Jupyter Notebook:**
+   - Open and run `Tasks_travel_booking.ipynb` to see the implementation of various database tasks and operations.
+
+4. **Run the Streamlit App:**
+   - Start the Streamlit web application by running the following command:
+     ```bash
+     streamlit run app.py
+     ```
+   - This will launch the web interface in your default web browser.
+
+## Usage
+
+- The **Jupyter Notebook** (`Tasks_travel_booking.ipynb`) is mainly for demonstration and testing of SQL operations, including table creation, data insertion, and normalization.
+  
+- The **Streamlit App** (`app.py`) provides a user-friendly web interface for interacting with the travel booking system. The functionalities include searching for bookings, managing user profiles, and processing payments.
+
+- The **booking_functions.py** script provides modular functions that are called within the Streamlit app to handle various backend operations.
+
+## Notes
+
+- Ensure the `travel_booking` database is properly set up and environment variables are correctly configured before running the app.
+- The code is designed to be secure by keeping sensitive information like the database user, password, and host outside of the source code and instead using environment variables.
+
+---
